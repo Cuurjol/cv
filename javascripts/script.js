@@ -6,6 +6,6 @@ $(function() {
     else {
       $(this).find('.fa-plus').addClass('fa-minus').removeClass('fa-plus');
     }
-    $(this).next('.info-block-content').slideToggle(400);
+    $(this).next('.info-block-content-active').slideToggle(400);
   });
 });
