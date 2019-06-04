@@ -1,10 +1,22 @@
-h1 {
-  margin-top: 20px;
+.photo {
+  border-radius: 10%;
+  width: 75%;
 }
 
-.photo {
-  border-radius: 50% 50% 50% 50%;
-  width: 75%;
+.title-center {
+  text-align: center;
+}
+
+.title-small {
+  font-size: 18px;
+}
+
+.title-middle {
+  font-size: 24px;
+}
+
+.title-large {
+  font-size: 36px;
 }
 
 .content-center {
@@ -39,6 +51,14 @@ h1 {
   margin-top: 10px;
 }
 
+.margin-top-2x {
+  margin-top: 20px;
+}
+
+.padding-left-4x {
+  padding-left: 40px;
+}
+
 .media-left {
   margin-right: 1rem;
 }
@@ -47,14 +67,18 @@ h1 {
   font-size: 18px;
 }
 
+.collapsible-icon {
+  position: absolute;
+  top: 15px;
+}
+
 .info-block-content {
   display: none;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 .info-block-content-active {
   display: block;
+  border-top: 2px solid #000;
 }
 
 .info-block-header {
@@ -82,4 +106,28 @@ h1 {
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
+}
+
+@media (min-width: 550px) {
+  .title-center {
+    text-align: left;
+  }
+}
+
+@media (max-width: 549px) {
+  .collapsible-icon {
+    top: 8px;
+  }
+  .title-large {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 399px) {
+  .collapsible-icon {
+    top: 4px;
+  }
+  .title-large {
+    font-size: 24px;
+  }
 }
