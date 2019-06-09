@@ -43,6 +43,10 @@
   margin-bottom: 30px;
 }
 
+.margin-bottom-4x {
+  margin-bottom: 40px;
+}
+
 .margin-bottom-5x {
   margin-bottom: 50px;
 }
@@ -98,14 +102,13 @@
   padding-left: 0.3em;
 }
 
-.work-place p {
+.left-column p {
   margin-bottom: 0px;
 }
 
-.work-place em {
-  font-style: italic;
+.left-column .title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (min-width: 550px) {
