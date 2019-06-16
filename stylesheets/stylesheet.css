@@ -89,19 +89,6 @@
   cursor: pointer;
 }
 
-.horizontal {
-  list-style: square inside;
-}
-
-.horizontal li {
-  display: inline;
-}
-
-.horizontal li + li {
-  border-left: 2px solid;
-  padding-left: 0.3em;
-}
-
 .left-column p {
   margin-bottom: 0px;
 }
